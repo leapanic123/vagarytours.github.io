@@ -1,0 +1,237 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+ }
+ 
+ body {
+   background-size: cover; 
+   background-repeat: no-repeat; 
+   background-attachment: fixed; 
+   background-position: center center;
+ }
+ 
+ 
+ .navigacija {
+   float: right;
+   list-style: none;
+   margin-top: -300px;
+   padding-right: 15px;
+ }
+ 
+ .navigacija li {
+   display: inline-block;
+ }
+ 
+ .navigacija li a {
+   color: white;
+   text-decoration: none;
+   padding: 5px 15px;
+   font-size: 15px;
+ }
+ 
+ .navigacija li a:hover {
+   background: white;
+   color: purple;
+ }
+ 
+ .logo img {
+   width: 120;
+   cursor: pointer;
+   
+ }
+ 
+ main {
+   padding: 20px;
+ }
+ 
+ .galerija {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.galerija img {
+   max-width: 60%;
+   height: auto;
+   border-radius: 8px;
+   transition: transform 0.2s;
+   cursor: pointer;
+   margin-bottom: 100px;
+   margin-left: 600px;
+   margin-right: 600px;
+}
+
+.galerija img:hover {
+   transform: scale(1.05);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+[type="submit"] {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+[type="submit"]:hover {
+  background: #fff;
+  color: #000;
+}
+
+h3 {
+  font-family: "Noto Serif Display", serif;
+  font-size: 2.3rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+a {
+  color: var(--dark);
+  font-weight: 500;
+  transition: 0.3s ease-in;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 0.5rem;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid var(--dark);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.dno_oblikovanje {
+  backdrop-filter: blur(50px);
+  border: 0.1px solid rgba(233, 232, 232, 0.208);
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+.dno {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  margin: auto;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(100%, 400px);
+  border-bottom: 1px solid var(--dark);
+}
+
+input {
+  padding: 0.75rem 0;
+  border: none;
+  background: none;
+  font-weight: 500;
+  transition: border 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  border-radius: 0;
+  width: 100%;
+  font-size: 1.05rem;
+  font-weight: bolder;
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--dark);
+}
+
+.raspored {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 2rem;
+}
+
+
+.new {
+  width: 50%;
+}
+
+.nav {
+  width: 25%;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+
+.opis1 {
+  position: absolute;
+  top: 50px;
+ justify-self: center;
+  font-weight: bold;
+}
+
+.opis2 {
+  position: absolute;
+  top: 250px;
+  
+}
